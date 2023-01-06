@@ -1,0 +1,70 @@
+form {
+  border-radius: 1rem;
+  border: 5px solid #ababab;
+  margin: 2rem;
+  padding: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  max-width: 1000px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin: 12px 0;
+  font-family: 'Inter', sans-serif;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  resize: none;
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+  font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  padding: 12px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+button[type='submit'] {
+  margin-right: 15%;
+  border: 1px solid green;
+  color: lightgreen;
+  width: 60%;
+}
+button[type='submit']:hover {
+  border: 1px solid lightgreen;
+  color: white;
+  background-color: green;
+}
+button[type='reset'] {
+  border: 1px solid yellow;
+  color: lightyellow;
+  width: 25%;
+}
+button[type='reset']:hover {
+  border: 1px solid lightyellow;
+  color: black;
+  background-color: yellow;
+}
+
+@media screen and (min-width: 550px) {
+  form {
+    margin: 3rem;
+    padding: 2rem;
+  }
+}

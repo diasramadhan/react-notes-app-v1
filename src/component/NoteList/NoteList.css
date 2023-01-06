@@ -1,0 +1,32 @@
+.content-container {
+  min-height: 100vh;
+  border-radius: 1rem;
+  border: 5px solid #ababab;
+  margin: 2rem;
+  padding: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  max-width: 1000px;
+}
+
+.list-note {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3rem;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 550px) {
+  .content-container {
+    margin: 3rem;
+    padding: 2rem;
+  }
+}

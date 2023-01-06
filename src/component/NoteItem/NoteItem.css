@@ -1,0 +1,59 @@
+.card-note {
+  width: 250px;
+}
+.card-title {
+  background-color: black;
+  padding: 12px;
+  border-radius: 1rem 1rem 0 0;
+  -webkit-border-radius: 1rem 1rem 0 0;
+  -moz-border-radius: 1rem 1rem 0 0;
+  -ms-border-radius: 1rem 1rem 0 0;
+  -o-border-radius: 1rem 1rem 0 0;
+}
+.card-note h4 {
+  line-height: 2rem;
+}
+.card-note h6 {
+  color: #ababab;
+  line-height: 1rem;
+}
+.card-note p {
+  font-size: 0.9rem;
+}
+.card-body {
+  background-color: white;
+  color: black;
+  padding: 12px;
+}
+.card-btn {
+  background-color: white;
+  padding: 12px;
+  border-radius: 0 0 1rem 1rem;
+  -webkit-border-radius: 0 0 1rem 1rem;
+  -moz-border-radius: 0 0 1rem 1rem;
+  -ms-border-radius: 0 0 1rem 1rem;
+  -o-border-radius: 0 0 1rem 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.btn-delete {
+  color: white;
+  background-color: red;
+}
+
+.card-note .btn-arsip {
+  color: black;
+  background-color: #ababab;
+}
+
+.btn-delete:hover {
+  color: white;
+  background-color: rgb(196, 44, 44);
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}

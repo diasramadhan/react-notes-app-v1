@@ -1,0 +1,53 @@
+.container-navbar {
+  width: 100%;
+  background: transparent;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.container-navbar .btn-aktif {
+  background: transparent;
+  color: #01f19b;
+  border: #01f19b solid 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: 1.8rem;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.container-navbar .btn-arsip {
+  background: transparent;
+  color: #ababab;
+  border: #ababab solid 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.btn-arsip:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+.btn-aktif:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
